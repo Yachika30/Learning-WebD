@@ -1,8 +1,8 @@
 let fs = require("fs");
-let print = require("./command/print");
-let scommand = require("./command/scommand");
-let bcommand = require("./command/bcommand");
-let ncommand = require("./command/ncommand");
+let print = require("./print");
+let scommand = require("./scommand");
+let bcommand = require("./bcommand");
+let ncommand = require("./ncommand");
 let arr = process.argv.slice(2);
 
 let files=[];
